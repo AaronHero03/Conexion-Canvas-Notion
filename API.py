@@ -3,9 +3,9 @@ from ics import Calendar
 from datetime import datetime, timedelta, timezone
 
 # ⚙️ CONFIGURA AQUÍ TUS DATOS
-NOTION_TOKEN = "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"
-DATABASE_ID_RAW = "211c0a20535c8043a736d6c488eac33c"
-ICS_PATH = "https://experiencia21.tec.mx/feeds/calendars/user_vG0otn0cjul0IbpdtI10NKHx0ZSdruxZTTAYauEY.ics"
+NOTION_TOKEN = "tu_notion_token_aquí"
+DATABASE_ID_RAW = "tu_database_id_aquí"  # Sin guiones ni llaves
+ICS_PATH = "ruta/a/tu/archivo.ics"  # Ruta al archivo ICS local o URL
 
 # 🔧 Convertir a UUID
 def format_uuid(uuid_str):
